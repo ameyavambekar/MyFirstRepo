@@ -1,0 +1,7 @@
+text.departing.flightconfirmationpage=xpath=//td[@valign='top']//td//td//td//tbody//tr[3]//td[1]//font[1]
+text.arrival.flightconfirmationpage=xpath=//td[@valign='top']//td//td//td//tbody//tr[5]//td[1]//font[1]
+text.passengers.flightconfirmationpage=xpath=//td//td//td//tbody//tr[7]//td[1]//font[1]
+text.billedto.flightconfirmationpage=xpath=//td//td//td//tbody//tr[9]//td[1]//p[1]//font[1]
+text.deliveryaddress.flightconfirmationpage=xpath=//td//td//td//tbody//tr[11]//td[1]//p[1]//font[1]
+text.totaltaxes.flightconfirmationpage=xpath=//td[@align='right']/font/font/font/b/font
+text.totalprice.flightconfirmationpage=xpath=//td[@align='right']/font/b/font/font/b/font

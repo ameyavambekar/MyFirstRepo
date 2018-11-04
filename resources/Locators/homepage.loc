@@ -1,0 +1,5 @@
+input.username.homepage=xpath=//input[@name='userName']
+input.password.homepage=xpath=//input[@name='password']
+link.flights.homepage=xpath=//a[text()='Flights']
+link.signon.homepage=xpath=//a[text()='SIGN-ON']
+link.signoff.homepage=xpath=//a[contains(text(),'SIGN-OFF')]

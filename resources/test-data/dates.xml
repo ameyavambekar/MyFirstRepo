@@ -1,0 +1,25 @@
+<root>
+	<data>
+		<dates>
+			<past>
+				<on-day>20</on-day>
+				<on-month>March</on-month>
+				<return-day>02</return-day>
+				<return-month>April</return-month>
+			</past>
+			<future>
+				<on-day>20</on-day>
+				<on-month>October</on-month>
+				<return-day>02</return-day>
+				<return-month>April</return-month>
+			</future>
+			<invalid>
+				<on-day>31</on-day>
+				<on-month>February</on-month>
+				<return-day>31</return-day>
+				<return-month>November</return-month>
+			</invalid>
+		</dates>
+	</data>
+
+</root>

@@ -1,0 +1,3 @@
+input.username.signonpage=xpath=//input[@name='userName']
+input.password.signonpage=xpath=//input[@name='password']
+button.login.signonpage=xpath=//input[@name='login']
