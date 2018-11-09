@@ -17,8 +17,11 @@ import com.qmetry.qaf.automation.util.Validator;
 public class BookFlightPage extends WebDriverBaseTestPage<WebDriverTestPage> {
 	
 	
-	BookFlightBean bean = new BookFlightBean();
+	BookFlightBean bean;
 
+	@FindBy(locator="input.creditcardnumber.bookflightpage")
+	private QAFWebElement creditCardNumber;
+	
 	@FindBy(locator="button.purchase.bookflightpage")
 	private QAFWebElement btnPurchase;
 	
@@ -98,7 +101,9 @@ public class BookFlightPage extends WebDriverBaseTestPage<WebDriverTestPage> {
 	private List<QAFWebElement> listDeliveryCountry;
 	
 	
-	
+	/*public QAFWebElement getCreditCardNumber() {
+		return creditCardNumber;
+	}*/
 	
 	public QAFWebElement getTxtDepart() {
 		return txtDepart;
@@ -318,11 +323,25 @@ public class BookFlightPage extends WebDriverBaseTestPage<WebDriverTestPage> {
 		}
 	}
 	
-	public void fillDetails()
-	{
+	public void fillDetails(String key)
+	{	
+		bean = new BookFlightBean();
 		bean.clearFields();
-		bean.fillFromConfig("data");
+		bean.fillFromConfig(key);
 		bean.fillUiElements();
+	}
+	
+	public void verifyCreditCardNumberLength(String cardNumber)
+	{
+		int actualLength = cardNumber.length();
+		int enteredLength = creditCardNumber.getAttribute("value").length();
+		int maxLength = Integer.parseInt(creditCardNumber.getAttribute("maxlength"));
+		
+		if(actualLength>maxLength)
+			Validator.verifyTrue(enteredLength==maxLength, "Length of credit card number is greater than 16", "Length of credit card number is less than 16");
+		else
+			return;
+		
 	}
 	
 	@Override

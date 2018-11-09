@@ -6,15 +6,142 @@
 		<ccLastName>Ambekar</ccLastName>
 		<ccMiddleName>Vinayak</ccMiddleName>
 		<ccNumber>123456</ccNumber>
-		<billAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony</billAddressLine1>
+		<billAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</billAddressLine1>
 		<billAddressLine2>Kothrud</billAddressLine2>
 		<billCity>Pune</billCity>
 		<billState>MH</billState>
 		<billPostalCode>411038</billPostalCode>
-		<deliveryAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony</deliveryAddressLine1>
+		<deliveryAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</deliveryAddressLine1>
 		<deliveryAddressLine2>Kothrud</deliveryAddressLine2>
 		<deliveryCity>Pune</deliveryCity>
 		<deliveryState>MH</deliveryState>
 		<deliveryPostalCode>411038</deliveryPostalCode>
 	</data>
+	<blank-name>
+		<firstName></firstName>
+		<lastName></lastName>
+		<ccFirstName>Ameya</ccFirstName>
+		<ccLastName>Ambekar</ccLastName>
+		<ccMiddleName>Vinayak</ccMiddleName>
+		<ccNumber>123456</ccNumber>
+		<billAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</billAddressLine1>
+		<billAddressLine2>Kothrud</billAddressLine2>
+		<billCity>Pune</billCity>
+		<billState>MH</billState>
+		<billPostalCode>411038</billPostalCode>
+		<deliveryAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</deliveryAddressLine1>
+		<deliveryAddressLine2>Kothrud</deliveryAddressLine2>
+		<deliveryCity>Pune</deliveryCity>
+		<deliveryState>MH</deliveryState>
+		<deliveryPostalCode>411038</deliveryPostalCode>
+	</blank-name>
+
+	<invalid-name>
+		<firstName>123@!#</firstName>
+		<lastName>456$%^</lastName>
+		<ccFirstName>Ameya</ccFirstName>
+		<ccLastName>Ambekar</ccLastName>
+		<ccMiddleName>Vinayak</ccMiddleName>
+		<ccNumber>123456</ccNumber>
+		<billAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</billAddressLine1>
+		<billAddressLine2>Kothrud</billAddressLine2>
+		<billCity>Pune</billCity>
+		<billState>MH</billState>
+		<billPostalCode>411038</billPostalCode>
+		<deliveryAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</deliveryAddressLine1>
+		<deliveryAddressLine2>Kothrud</deliveryAddressLine2>
+		<deliveryCity>Pune</deliveryCity>
+		<deliveryState>MH</deliveryState>
+		<deliveryPostalCode>411038</deliveryPostalCode>
+	</invalid-name>
+
+	<maxcardlength>
+		<firstName>Ameya</firstName>
+		<lastName>Ambekar</lastName>
+		<ccFirstName>Ameya</ccFirstName>
+		<ccLastName>Ambekar</ccLastName>
+		<ccMiddleName>Vinayak</ccMiddleName>
+		<ccNumber>1234567891023456789</ccNumber>
+		<billAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</billAddressLine1>
+		<billAddressLine2>Kothrud</billAddressLine2>
+		<billCity>Pune</billCity>
+		<billState>MH</billState>
+		<billPostalCode>411038</billPostalCode>
+		<deliveryAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</deliveryAddressLine1>
+		<deliveryAddressLine2>Kothrud</deliveryAddressLine2>
+		<deliveryCity>Pune</deliveryCity>
+		<deliveryState>MH</deliveryState>
+		<deliveryPostalCode>411038</deliveryPostalCode>
+	</maxcardlength>
+
+	<invalidcardnumber>
+		<firstName>Ameya</firstName>
+		<lastName>Ambekar</lastName>
+		<ccFirstName>Ameya</ccFirstName>
+		<ccLastName>Ambekar</ccLastName>
+		<ccMiddleName>Vinayak</ccMiddleName>
+		<ccNumber>a321987!@234</ccNumber>
+		<billAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</billAddressLine1>
+		<billAddressLine2>Kothrud</billAddressLine2>
+		<billCity>Pune</billCity>
+		<billState>MH</billState>
+		<billPostalCode>411038</billPostalCode>
+		<deliveryAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</deliveryAddressLine1>
+		<deliveryAddressLine2>Kothrud</deliveryAddressLine2>
+		<deliveryCity>Pune</deliveryCity>
+		<deliveryState>MH</deliveryState>
+		<deliveryPostalCode>411038</deliveryPostalCode>
+	</invalidcardnumber>
+
+	<numericcardnumber>
+		<firstName>Ameya</firstName>
+		<lastName>Ambekar</lastName>
+		<ccFirstName>Ameya</ccFirstName>
+		<ccLastName>Ambekar</ccLastName>
+		<ccMiddleName>Vinayak</ccMiddleName>
+		<ccNumber>1234567890123456</ccNumber>
+		<billAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</billAddressLine1>
+		<billAddressLine2>Kothrud</billAddressLine2>
+		<billCity>Pune</billCity>
+		<billState>MH</billState>
+		<billPostalCode>411038</billPostalCode>
+		<deliveryAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</deliveryAddressLine1>
+		<deliveryAddressLine2>Kothrud</deliveryAddressLine2>
+		<deliveryCity>Pune</deliveryCity>
+		<deliveryState>MH</deliveryState>
+		<deliveryPostalCode>411038</deliveryPostalCode>
+	</numericcardnumber>
+
+	<lessthansixteencardnumber>
+		<firstName>Ameya</firstName>
+		<lastName>Ambekar</lastName>
+		<ccFirstName>Ameya</ccFirstName>
+		<ccLastName>Ambekar</ccLastName>
+		<ccMiddleName>Vinayak</ccMiddleName>
+		<ccNumber>1234567890123456</ccNumber>
+		<billAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</billAddressLine1>
+		<billAddressLine2>Kothrud</billAddressLine2>
+		<billCity>Pune</billCity>
+		<billState>MH</billState>
+		<billPostalCode>411038</billPostalCode>
+		<deliveryAddressLine1>Flat no.307,Shree Gopal Vihar,Mayur Colony
+		</deliveryAddressLine1>
+		<deliveryAddressLine2>Kothrud</deliveryAddressLine2>
+		<deliveryCity>Pune</deliveryCity>
+		<deliveryState>MH</deliveryState>
+		<deliveryPostalCode>411038</deliveryPostalCode>
+	</lessthansixteencardnumber>
 </root>

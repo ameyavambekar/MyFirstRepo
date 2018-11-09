@@ -75,7 +75,7 @@ public class FlightFinderTest extends WebDriverTestCase {
 		bookFlightPage.selectCreditCard(getProperty("card"));
 		bookFlightPage.selectCCExpiryMonth(getProperty("month"));
 		bookFlightPage.selectCCExpiryYear(getProperty("year"));
-		bookFlightPage.fillDetails();
+		bookFlightPage.fillDetails("data");
 		bookFlightPage.clickPurchaseButton();
 		Validator.verifyThat("User should navigate to flight booking confirmation page", getDriver().getCurrentUrl(), Matchers.equalTo(getProperty("flightconfirmationpage.url")));
 		

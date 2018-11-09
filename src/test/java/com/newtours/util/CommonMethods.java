@@ -30,7 +30,7 @@ public class CommonMethods extends WebDriverBaseTestPage<WebDriverTestPage> {
 		signOnPage.enterPassword(password);
 		signOnPage.clickButtonLogin();
 		flightFinderPage.waitForPageToLoad();
-		//Validator.verifyThat("User should land on flight finder page", driver.getCurrentUrl(), Matchers.equalTo(getProperty("flightfinderpage.url")));		
+				
 	}
 	
 	public void signOff()
