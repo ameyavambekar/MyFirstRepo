@@ -307,7 +307,7 @@ public class BookFlightPage extends WebDriverBaseTestPage<WebDriverTestPage> {
 		selectBillCountry.click();
 		for(QAFWebElement element:listBillCountry)
 		{
-			if(element.getText().equals(country))
+			if(element.getText().contains(country))
 				element.click();
 		}
 	}
@@ -316,9 +316,11 @@ public class BookFlightPage extends WebDriverBaseTestPage<WebDriverTestPage> {
 	public void selectDeliveryCountry(String country)
 	{
 		selectDeliveryCountry.click();
+		selectDeliveryCountry.sendKeys(country);
+		selectDeliveryCountry.click();
 		for(QAFWebElement element:listDeliveryCountry)
 		{
-			if(element.getText().equals(country))
+			if(element.getText().contains(country))
 				element.click();
 		}
 	}
