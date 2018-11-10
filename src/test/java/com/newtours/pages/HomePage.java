@@ -23,6 +23,22 @@ public class HomePage extends WebDriverBaseTestPage<WebDriverTestPage> {
 	@FindBy(locator="link.signoff.homepage")
 	private QAFWebElement linkSignOff;
 	
+	@FindBy(locator="link.hotels.homepage")
+	private QAFWebElement linkHotels;
+	
+	@FindBy(locator="link.cruises.homepage")
+	private QAFWebElement linkCruises;
+	
+	public QAFWebElement getLinkCruises()
+	{
+		return linkCruises;
+	}
+	
+	public QAFWebElement getLinkHotels()
+	{
+		return linkHotels;
+	}
+	
 	
 	
 	public QAFWebElement getLinkSignOff() {
@@ -63,6 +79,16 @@ public class HomePage extends WebDriverBaseTestPage<WebDriverTestPage> {
 		linkFlights.click();
 	}
 
+	public void clickCruisesLink()
+	{
+		linkCruises.click();
+	}
+	
+	
+	public void clickHotelsLink()
+	{
+		linkHotels.click();
+	}
 
 	public void clickSingOnLink()
 	{
