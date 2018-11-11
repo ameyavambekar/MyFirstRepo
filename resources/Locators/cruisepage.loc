@@ -1,0 +1,3 @@
+text.cruiserate.cruisepage=xpath=//font[@face='arial narrow']
+text.cruiseitinerary.cruisepage=xpath=//table/tbody/tr/td/span[contains(text(),'Cruise Itinerary')]
+link.acceptingreservations.cruisepage=xpath=//img[@alt='Reservations Open']

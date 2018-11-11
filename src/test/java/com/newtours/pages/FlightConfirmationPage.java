@@ -20,6 +20,15 @@ public class FlightConfirmationPage extends WebDriverBaseTestPage<WebDriverTestP
 	@FindBy(locator="text.departing.flightconfirmationpage")
 	private QAFWebElement txtDeparting;
 	
+	@FindBy(locator="button.signout.flightconfirmationpage")
+	private QAFWebElement buttonSignOut;
+	
+	@FindBy(locator="button.backtohomepage.flightconfirmationpage")
+	private QAFWebElement buttonBackToHome;
+	
+	@FindBy(locator="button.backtoflightspage.flightconfirmationpage")
+	private QAFWebElement buttonBackToFlights;
+	
 	@FindBy(locator="text.arrival.flightconfirmationpage")
 	private QAFWebElement txtArrival;
 	
@@ -38,7 +47,10 @@ public class FlightConfirmationPage extends WebDriverBaseTestPage<WebDriverTestP
 	@FindBy(locator="text.totalprice.flightconfirmationpage")
 	private QAFWebElement txtTotalPrice;
 	
-	
+	public QAFWebElement getButtonBackToFlights()
+	{
+		return buttonBackToFlights;
+	}
 	
 	
 	public QAFWebElement getTxtDeparting() {
@@ -46,14 +58,20 @@ public class FlightConfirmationPage extends WebDriverBaseTestPage<WebDriverTestP
 	}
 
 
-
+	public QAFWebElement getButtonBackToHome()
+	{
+		return buttonBackToHome;
+	}
 
 	public QAFWebElement getTxtArrival() {
 		return txtArrival;
 	}
 
 
-
+	public QAFWebElement getButtonSignOut()
+	{
+		return buttonSignOut;
+	}
 
 	public QAFWebElement getTxtPassengers() {
 		return txtPassengers;
@@ -88,6 +106,10 @@ public class FlightConfirmationPage extends WebDriverBaseTestPage<WebDriverTestP
 	}
 
 
+	public void clickBackToFlightsButton()
+	{
+		buttonBackToFlights.click();
+	}
 
 	public void verifyInvoice()
 	{
@@ -150,6 +172,17 @@ public class FlightConfirmationPage extends WebDriverBaseTestPage<WebDriverTestP
 		Validator.verifyTrue(txtTotalPrice.getText().contains(totalPrice), "Total price is incorrect", "Total price is correct");
 		
 		
+	}
+	
+	
+	public void clickLogOutButton()
+	{
+		buttonSignOut.click();
+	}
+	
+	public void clickBackToHomeButton()
+	{
+		buttonBackToHome.click();
 	}
 	
 
